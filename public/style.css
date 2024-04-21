@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, sans-serif;
+  background: white;/*linear-gradient(to bottom, rgb(247, 201, 201), rgb(233, 50, 50)); /* Add gradient background */
+}
+
+header {
+  background-color: white;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  display: none;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px 0;
+}
+
+/* Add this CSS to hide the main navigation by default */
+.navbar {
+  display: none;
+}
+
+
+.navbar ul {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  padding: 20px;
+}
+
+
+/* Update the CSS for the hamburger menu */
+.menu-toggle {
+  cursor: pointer;
+  position: absolute;
+  top: 15px; /* Adjust the top position */
+  left: 15px; /* Adjust the left position */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.menu-toggle.open > * {
+  background-color: white;
+}
+
+
+/* Add this CSS for the side pane */
+
+
+/* Shorten the width of the side pane */
+/* Shorten the width of the side pane */
+.side-pane {
+  position: fixed;
+  top: 0;
+  left: -200px; /* Adjust the width of the side pane */
+  width: 200px; /* Shorten the width */
+  height: 100%;
+  background-color: #333;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.side-pane.show {
+  left: 0;
+}
+
+/*
+.side-pane ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}*/
+/* Adjust the positioning of the menu items */
+.side-pane ul {
+  list-style: none;
+  padding: 20px 0; /* Add padding to shift menu items down */
+  margin: 0;
+  margin-top: 35px;
+}
+
+.side-pane ul li {
+  margin-bottom: 10px;
+}
+
+.side-pane ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+.side-pane ul li a:hover {
+  background-color: #555;
+}
+
+
+.search-container {
+  text-align: center;
+  margin-top: 50px; /* Adjust margin as needed */
+}
+
+#searchInput {
+  padding: 10px;
+  width: 720px; /* Increase width as needed */
+  margin-right: 10px;
+}
+
+
+
+
+
+html {
+    height: 100%;
+    width: 100%;
+}
+  
+.navbar-expand-lg .navbar-collapse {
+  float: right;
+  flex-grow: unset;
+}
+
+#welcome{
+    text-align: center !important;
+    margin-top:7.5%;
+  }
+
+.accordion{
+  margin-top:7.5%;
+  --bs-accordion-active-bg: var(--bs-red);
+  --bs-accordion-active-color: var(--bs-white);
+  --bs-accordion-btn-bg: #d99191;
+}
+
+.text-center{
+  margin-top:7.5%;
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.col{
+  font-size: 50px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: center;
+}
+
+.two{
+  margin-top:0.5%;
+}
+/*
+.num {
+  animation: counter 5s ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+
+.num::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 100;
+  }
+}
+*/
