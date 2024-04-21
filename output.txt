@@ -1,0 +1,38 @@
+Based on the interest in computer science, here are the events that might be of particular interest:
+
+1. Introduction to High-Performance Computing
+   - Description: This workshop is targeted at new users of the University's "Zaratan" cluster and at those users who want to refresh/improve parameter settings in their job scripts.
+   - Start Date: Mon Apr 22
+   - End Date: Mon Apr 29
+   - Start Time: 12:00 AM
+   - Why might this be of interest? This event is specifically designed for individuals interested in learning about high-performance computing, which is a crucial area in computer science focused on optimizing computing power and efficiency.
+
+2. Create Web Apps with ArcGIS Experience Builder
+   - Description: Create Web Apps with ArcGIS Experience Builder.
+   - Start Date: Tue Apr 23
+   - End Date: Tue Apr 23
+   - Start Time: 12:00 AM
+   - Why might this be of interest? This workshop provides hands-on experience in developing web applications, which is a valuable skill in computer science and software development.
+
+3. Introduction to High-Performance Computing at UMD
+   - Description: This workshop is targeted at new users of the university's high-performance computing resources, especially those with limited or no HPC experience.
+   - Start Date: Thu Apr 25
+   - End Date: Thu Apr 25
+   - Start Time: 12:00 AM
+   - Why might this be of interest? This event reiterates the fundamentals of high-performance computing, helping attendees gain a solid understanding and practical skills in using state-of-the-art computing infrastructure.
+
+4.  Virtual Information Session: Master of Science in GIS and Graduate Certificate in GIS or Remote Sensing
+   - Description: Virtual Information Session about the Master of Science in GIS & Graduate Certificate in GIS or Remote Sensing.
+   - Start Date: Thu Apr 25
+   - End Date: Thu Apr 25
+   - Start Time: 12:00 AM
+   - Why might this be of interest? Geographic Information Systems (GIS) and Remote Sensing are integral to modern computing, especially in areas involving spatial data and mapping technologies.
+
+5.  ATLAS Monthly Speaker Series (April 2024): Free African Language Resources
+   - Description: Learn about the NFLC-UMD's free resources for African language learning and maintenance. If you are a language learner or teach languages, you won’t want to miss this session about language learning resources that are available to you.
+   - Start Date: Mon Apr 29 
+   - End Date: Mon Apr 29
+   - Start Time: 12:00 AM
+   - Why might this be of interest? While not directly related to mainstream computer science, language resources and computational linguistics are important for areas such as artificial intelligence and machine learning, particularly in natural language processing and educational technology.
+
+These events have been carefully selected to align with a focus on computer science, offering opportunities for both learning and application in various sub-fields.
